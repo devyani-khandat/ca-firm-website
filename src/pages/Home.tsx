@@ -5,25 +5,25 @@ import "./home.css";
 const SERVICES = [
   {
     number: "01",
-    title: "Assurance",
+    title: "Company Incorporation",
     description:
       "Independent assurance and audit services built around accuracy, transparency and trust.",
   },
   {
     number: "02",
-    title: "Tax & Regulatory",
+    title: "GST Advisory",
     description:
       "Practical tax and regulatory guidance to help businesses stay compliant and prepared.",
   },
   {
     number: "03",
-    title: "Business Advisory",
+    title: "Tax Audits",
     description:
       "Insight-driven advice that supports informed decisions, sustainable growth and long-term value.",
   },
   {
     number: "04",
-    title: "Transaction Support",
+    title: "ROC Compliances",
     description:
       "Financial and strategic support through important transactions and business decisions.",
   },
