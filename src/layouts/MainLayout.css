@@ -1,0 +1,216 @@
+/* ========================================
+   MAIN FOOTER
+======================================== */
+
+.site-footer {
+  background: #18283b;
+  color: #f5f1e9;
+  padding: 85px 6% 28px;
+}
+
+.footer-main {
+  width: min(1400px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.7fr 0.8fr 0.9fr 1.1fr;
+  gap: 70px;
+  padding-bottom: 75px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+/* BRAND */
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  color: #f5f1e9;
+  font-family: "Times New Roman", serif;
+  font-size: 27px;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+
+.footer-subtitle {
+  margin-top: 6px;
+  color: #aeb7bf;
+  font-family: Arial, sans-serif;
+  font-size: 8px;
+  letter-spacing: 2.5px;
+}
+
+.footer-description {
+  max-width: 280px;
+  margin-top: 30px;
+  color: #9da8b1;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.9;
+}
+
+/* COLUMNS */
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.footer-heading {
+  margin-bottom: 13px;
+  color: #c5ad85;
+  font-family: Arial, sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+
+.footer-column a,
+.footer-location {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #c1c8cd;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.6;
+  text-decoration: none;
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.footer-column a:hover {
+  color: #c5ad85;
+  transform: translateX(3px);
+}
+
+.footer-contact {
+  gap: 15px;
+}
+
+.footer-contact .footer-heading {
+  margin-bottom: 4px;
+}
+
+.footer-location {
+  color: #8d99a2;
+}
+
+/* BOTTOM */
+
+.footer-bottom {
+  width: min(1400px, 100%);
+  margin: 25px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  color: #7f8a93;
+  font-family: Arial, sans-serif;
+  font-size: 9px;
+  letter-spacing: 0.5px;
+}
+
+.footer-contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 35px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #c5ad85;
+  color: #f5f1e9;
+  font-family: Arial, sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  text-decoration: none;
+  transition:
+    gap 0.3s ease,
+    color 0.3s ease;
+}
+
+.footer-contact-link:hover {
+  gap: 45px;
+  color: #c5ad85;
+}
+
+/* ========================================
+   TABLET
+======================================== */
+
+@media (max-width: 1000px) {
+  .footer-main {
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 50px;
+  }
+
+  .footer-contact {
+    grid-column: 2 / 4;
+  }
+}
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 650px) {
+  .site-footer {
+    padding: 65px 7% 25px;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 30px;
+    padding-bottom: 50px;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer-description {
+    max-width: 300px;
+  }
+
+  .footer-contact {
+    grid-column: 1 / -1;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    line-height: 1.7;
+  }
+}
+
+/* ========================================
+   SMALL MOBILE
+======================================== */
+
+@media (max-width: 390px) {
+  .footer-main {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-brand,
+  .footer-contact {
+    grid-column: auto;
+  }
+}
+
+/* ========================================
+   REDUCED MOTION
+======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .footer-column a,
+  .footer-contact-link {
+    transition: none;
+  }
+}

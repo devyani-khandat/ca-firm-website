@@ -1,0 +1,1056 @@
+/* =================================
+   PUBLICATIONS PAGE
+================================= */
+
+.publications-page {
+  background: #f8f7f3;
+  color: #172534;
+}
+
+
+/* =================================
+   HERO — WARM STONE
+================================= */
+
+.publications-hero {
+  position: relative;
+
+  min-height: calc(100vh - 88px);
+
+  overflow: hidden;
+
+  background: #e8e3d9;
+
+  color: #172534;
+}
+
+
+/* =================================
+   CA BACKGROUND
+================================= */
+
+.publications-hero-background {
+  position: absolute;
+
+  inset: 0;
+
+  background-image: url("../assets/home-background.png");
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: cover;
+
+  opacity: 0.15;
+
+  pointer-events: none;
+}
+
+
+/* =================================
+   HERO OVERLAY
+================================= */
+
+.publications-hero-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(232, 227, 217, 0.55) 0%,
+      rgba(232, 227, 217, 0.18) 50%,
+      rgba(232, 227, 217, 0.48) 100%
+    );
+
+  pointer-events: none;
+}
+
+
+/* =================================
+   HERO INNER
+================================= */
+
+.publications-hero-inner {
+  position: relative;
+
+  z-index: 2;
+
+  width: min(1280px, 88%);
+
+  min-height: calc(100vh - 88px);
+
+  margin: 0 auto;
+
+  padding: 110px 0 34px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+
+/* =================================
+   HERO GRID
+================================= */
+
+.publications-hero-grid {
+  display: grid;
+
+  grid-template-columns: 1.2fr 0.8fr;
+
+  gap: 80px;
+
+  align-items: center;
+
+  flex: 1;
+}
+
+
+/* =================================
+   KICKER
+================================= */
+
+.publications-kicker {
+  margin-bottom: 26px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  letter-spacing: 3px;
+
+  color: #66737d;
+}
+
+
+/* =================================
+   HERO HEADING
+================================= */
+
+.publications-hero-heading h1 {
+  margin: 0;
+
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: clamp(55px, 6.2vw, 92px);
+
+  font-weight: 400;
+
+  line-height: 0.94;
+
+  letter-spacing: -0.035em;
+
+  color: #172534;
+}
+
+.publications-hero-heading h1 em {
+  font-style: italic;
+
+  color: #9c8150;
+}
+
+
+/* =================================
+   HERO COPY
+================================= */
+
+.publications-hero-copy {
+  max-width: 470px;
+
+  padding-top: 80px;
+}
+
+.publications-hero-lead {
+  margin-bottom: 24px;
+
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: 23px;
+
+  line-height: 1.4;
+
+  color: #263746;
+}
+
+.publications-hero-copy > p:not(.publications-hero-lead) {
+  max-width: 420px;
+
+  margin-bottom: 34px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+
+  line-height: 1.85;
+
+  color: #69757d;
+}
+
+
+/* =================================
+   HERO LINK
+================================= */
+
+.publications-explore-link {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  text-decoration: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  letter-spacing: 2px;
+
+  color: #172534;
+
+  transition:
+    gap 0.3s ease,
+    color 0.3s ease;
+}
+
+.publications-explore-link:hover {
+  gap: 18px;
+
+  color: #9c8150;
+}
+
+
+/* =================================
+   HERO FOOTER
+================================= */
+
+.publications-hero-footer {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 9px;
+
+  letter-spacing: 2.5px;
+
+  color: #7d817e;
+}
+
+.publications-footer-line {
+  width: 44px;
+
+  height: 1px;
+
+  background: rgba(23, 37, 52, 0.2);
+}
+
+.publications-hero-footer-number {
+  margin-left: auto;
+
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: 13px;
+
+  letter-spacing: 1px;
+
+  color: #9c8150;
+}
+
+
+/* =================================
+   ARCHIVE INTRO — NAVY
+================================= */
+
+.publications-intro {
+  padding: 125px 0;
+
+  background: #172534;
+
+  color: #ffffff;
+}
+
+.publications-intro-inner {
+  width: min(1180px, 84%);
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 0.2fr 1fr;
+
+  gap: 75px;
+
+  align-items: center;
+}
+
+.publications-intro-index {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.publications-intro-index span {
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 8px;
+
+  letter-spacing: 2px;
+
+  color: rgba(255, 255, 255, 0.38);
+}
+
+.publications-intro-index strong {
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: 50px;
+
+  font-weight: 400;
+
+  color: #c2a66e;
+}
+
+.publications-intro-content {
+  max-width: 850px;
+}
+
+.publications-section-kicker {
+  margin-bottom: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 9px;
+
+  font-weight: 600;
+
+  letter-spacing: 2.5px;
+
+  color: #9c8150;
+}
+
+.publications-intro-content h2 {
+  margin: 0 0 28px;
+
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: clamp(45px, 5vw, 68px);
+
+  font-weight: 400;
+
+  line-height: 0.98;
+
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+.publications-intro-content h2 em {
+  font-style: italic;
+
+  color: #c2a66e;
+}
+
+.publications-intro-content > p {
+  max-width: 650px;
+
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+
+  line-height: 1.9;
+
+  color: rgba(255, 255, 255, 0.58);
+}
+
+
+/* =================================
+   PUBLICATION LIST
+================================= */
+
+.publications-list-section {
+  padding: 135px 0;
+
+  background: #f8f7f3;
+}
+
+.publications-list-inner {
+  width: min(1180px, 84%);
+
+  margin: 0 auto;
+}
+
+.publications-list-heading {
+  display: grid;
+
+  grid-template-columns: 1fr 0.75fr;
+
+  gap: 100px;
+
+  align-items: end;
+
+  margin-bottom: 70px;
+}
+
+.publications-list-heading h2 {
+  margin: 0;
+
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: clamp(45px, 5vw, 68px);
+
+  font-weight: 400;
+
+  line-height: 0.98;
+
+  letter-spacing: -0.03em;
+
+  color: #172534;
+}
+
+.publications-list-heading h2 em {
+  font-style: italic;
+
+  color: #9c8150;
+}
+
+.publications-list-heading > p {
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+
+  line-height: 1.85;
+
+  color: #69757d;
+}
+
+
+/* =================================
+   PUBLICATION COLLECTION
+================================= */
+
+.publications-list {
+  border-top: 1px solid rgba(23, 37, 52, 0.18);
+}
+
+.publication-card {
+  display: grid;
+
+  grid-template-columns: 55px 250px 1fr;
+
+  gap: 45px;
+
+  min-height: 330px;
+
+  padding: 45px 0;
+
+  border-bottom: 1px solid rgba(23, 37, 52, 0.14);
+
+  transition: padding-left 0.3s ease;
+}
+
+.publication-card:hover {
+  padding-left: 12px;
+}
+
+
+/* =================================
+   NUMBER
+================================= */
+
+.publication-card-number {
+  padding-top: 5px;
+
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: 14px;
+
+  color: #9c8150;
+}
+
+
+/* =================================
+   PUBLICATION COVER
+================================= */
+
+.publication-card-cover {
+  position: relative;
+
+  min-height: 240px;
+
+  background: #172534;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 18px 45px rgba(23, 37, 52, 0.12);
+}
+
+.publication-card-cover::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 15px;
+
+  border: 1px solid rgba(194, 166, 110, 0.35);
+}
+
+.publication-card-cover::after {
+  content: "";
+
+  position: absolute;
+
+  width: 180px;
+  height: 180px;
+
+  right: -75px;
+  bottom: -75px;
+
+  border: 1px solid rgba(194, 166, 110, 0.2);
+
+  border-radius: 50%;
+}
+
+.publication-card-cover-inner {
+  position: relative;
+
+  z-index: 1;
+
+  height: 100%;
+
+  min-height: 240px;
+
+  padding: 28px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+  color: #ffffff;
+}
+
+.publication-cover-firm {
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 7px;
+
+  font-weight: 600;
+
+  letter-spacing: 2px;
+
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.publication-cover-type {
+  max-width: 150px;
+
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: 21px;
+
+  line-height: 1.05;
+
+  color: #ffffff;
+}
+
+.publication-cover-year {
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: 12px;
+
+  color: #c2a66e;
+}
+
+.publication-cover-line {
+  width: 45px;
+
+  height: 1px;
+
+  background: #c2a66e;
+}
+
+.publication-card-cover-inner svg {
+  position: absolute;
+
+  right: 28px;
+  bottom: 28px;
+
+  color: rgba(194, 166, 110, 0.55);
+}
+
+
+/* =================================
+   PUBLICATION CONTENT
+================================= */
+
+.publication-card-content {
+  align-self: center;
+
+  max-width: 650px;
+}
+
+.publication-card-meta {
+  display: flex;
+
+  gap: 18px;
+
+  margin-bottom: 17px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 8px;
+
+  font-weight: 600;
+
+  letter-spacing: 1.6px;
+
+  color: #8a9298;
+}
+
+.publication-card-meta span:first-child {
+  color: #9c8150;
+}
+
+.publication-card-content h3 {
+  margin: 0 0 16px;
+
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: clamp(28px, 2.8vw, 40px);
+
+  font-weight: 400;
+
+  line-height: 1.05;
+
+  letter-spacing: -0.02em;
+
+  color: #172534;
+}
+
+.publication-card-content p {
+  max-width: 580px;
+
+  margin: 0 0 27px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  line-height: 1.85;
+
+  color: #69757d;
+}
+
+
+/* =================================
+   PUBLICATION LINK
+================================= */
+
+.publication-card-link {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 11px;
+
+  text-decoration: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 9px;
+
+  font-weight: 600;
+
+  letter-spacing: 1.8px;
+
+  color: #172534;
+
+  transition:
+    gap 0.3s ease,
+    color 0.3s ease;
+}
+
+.publication-card-link:hover {
+  gap: 17px;
+
+  color: #9c8150;
+}
+
+
+/* =================================
+   STATEMENT
+================================= */
+
+.publications-statement {
+  padding: 135px 0;
+
+  background: #eeece6;
+}
+
+.publications-statement-inner {
+  width: min(1180px, 84%);
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 0.15fr 1fr 0.75fr;
+
+  gap: 70px;
+
+  align-items: end;
+}
+
+.publications-statement-mark {
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: 15px;
+
+  color: #9c8150;
+}
+
+.publications-statement-content h2 {
+  margin: 0;
+
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: clamp(48px, 5.2vw, 72px);
+
+  font-weight: 400;
+
+  line-height: 0.96;
+
+  letter-spacing: -0.035em;
+
+  color: #172534;
+}
+
+.publications-statement-content h2 em {
+  font-style: italic;
+
+  color: #9c8150;
+}
+
+.publications-statement-copy {
+  padding-bottom: 5px;
+}
+
+.publications-statement-copy p {
+  margin: 0 0 22px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 13px;
+
+  line-height: 1.9;
+
+  color: #69757d;
+}
+
+.publications-statement-copy p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =================================
+   CLOSING CTA
+================================= */
+
+.publications-closing {
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 145px 0;
+
+  background: #f8f7f3;
+}
+
+.publications-closing-background {
+  position: absolute;
+
+  inset: 0;
+
+  background-image: url("../assets/home-background.png");
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: cover;
+
+  opacity: 0.1;
+
+  pointer-events: none;
+}
+
+.publications-closing-inner {
+  position: relative;
+
+  width: min(900px, 84%);
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.publications-closing-line {
+  width: 45px;
+
+  height: 1px;
+
+  margin: 0 auto 28px;
+
+  background: #b79a63;
+}
+
+.publications-closing-kicker {
+  margin-bottom: 22px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 9px;
+
+  font-weight: 600;
+
+  letter-spacing: 2.5px;
+
+  color: #8a9298;
+}
+
+.publications-closing-inner h2 {
+  margin: 0;
+
+  font-family: "Times New Roman", Georgia, serif;
+
+  font-size: clamp(46px, 5.5vw, 74px);
+
+  font-weight: 400;
+
+  line-height: 0.98;
+
+  letter-spacing: -0.03em;
+
+  color: #172534;
+}
+
+.publications-closing-inner h2 em {
+  font-style: italic;
+
+  color: #9c8150;
+}
+
+.publications-closing-copy {
+  max-width: 470px;
+
+  margin: 30px auto 34px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 12px;
+
+  line-height: 1.8;
+
+  color: #69757d;
+}
+
+.publications-closing-link {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  text-decoration: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  letter-spacing: 2px;
+
+  color: #172534;
+
+  transition: gap 0.3s ease;
+}
+
+.publications-closing-link:hover {
+  gap: 18px;
+}
+
+
+/* =================================
+   TABLET
+================================= */
+
+@media (max-width: 900px) {
+
+  .publications-hero-grid {
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+  }
+
+  .publications-hero-copy {
+    padding-top: 0;
+  }
+
+  .publications-intro-inner {
+    grid-template-columns: 1fr;
+
+    gap: 30px;
+  }
+
+  .publications-list-heading {
+    grid-template-columns: 1fr;
+
+    gap: 30px;
+  }
+
+  .publication-card {
+    grid-template-columns: 45px 220px 1fr;
+
+    gap: 25px;
+  }
+
+  .publications-statement-inner {
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+  }
+
+  .publications-statement-mark {
+    display: none;
+  }
+}
+
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 600px) {
+
+  .publications-hero {
+    min-height: auto;
+  }
+
+  .publications-hero-inner {
+    min-height: auto;
+
+    padding: 85px 0 28px;
+  }
+
+  .publications-hero-grid {
+    gap: 42px;
+  }
+
+  .publications-hero-heading h1 {
+    font-size: clamp(47px, 14vw, 67px);
+  }
+
+  .publications-hero-lead {
+    font-size: 19px;
+  }
+
+  .publications-hero-footer {
+    margin-top: 70px;
+
+    gap: 9px;
+
+    font-size: 7px;
+
+    letter-spacing: 1.5px;
+  }
+
+  .publications-footer-line {
+    width: 20px;
+  }
+
+  .publications-intro,
+  .publications-list-section,
+  .publications-statement,
+  .publications-closing {
+    padding: 90px 0;
+  }
+
+  .publications-intro-inner,
+  .publications-list-inner,
+  .publications-statement-inner {
+    width: 88%;
+  }
+
+  .publications-intro-content h2 {
+    font-size: 43px;
+  }
+
+  .publication-card {
+    grid-template-columns: 35px 1fr;
+
+    gap: 18px;
+
+    min-height: 0;
+
+    padding: 35px 0;
+  }
+
+  .publication-card-cover {
+    grid-column: 2;
+
+    min-height: 280px;
+  }
+
+  .publication-card-cover-inner {
+    min-height: 280px;
+  }
+
+  .publication-card-number {
+    grid-row: 1 / span 2;
+  }
+
+  .publication-card-content {
+    grid-column: 2;
+  }
+
+  .publication-card-content h3 {
+    font-size: 27px;
+  }
+
+  .publication-card-content p {
+    font-size: 11px;
+  }
+
+  .publication-card-link {
+    font-size: 8px;
+  }
+
+  .publications-statement-content h2 {
+    font-size: 45px;
+  }
+
+  .publications-closing-inner h2 {
+    font-size: 47px;
+  }
+}
